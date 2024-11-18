@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamíferos</title>
+    <style>
+        * {
+            margin: 0 auto;
+        } 
+        p {
+            font-size: 19px;
+            margin-top: 8px;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .onca {
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .onca img {
+            border-radius: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            width: 500px;
+            height: 300px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 26px;
+        }
+
+        .topico {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .descricao {
+            margin-top: 5px;
+            margin-bottom: 13px;
+        }
+
+        .imagens {
+            display: flex;
+            width: 100%;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+        .foto img {
+            border-radius: 10px;
+        }
+
+        .foto p {
+            margin-top: 5px;
+            font-size: 15px;
+            text-align: center;
+            font-family: 'times New Roman';
+        }
+
+        @media (max-width: 750px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .onca img {
+                width: 400px;
+                height: 250px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+            .imagens {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .foto {
+                margin-bottom: 15px;
+            }  
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Mammals of Brazil</h1>
+        <p>&nbsp;Mammals are a fascinating class of vertebrates that stand out for unique characteristics, such as
+            presence
+            of hair on the body and mammary glands, which allow the puppies to be fed with milk.</p>
+        <div class="onca">
+            <img src="img/onca-pintada.webp" alt="">
+        </div>
+        <div>
+            <p>&nbsp;Mammals are a class of vertebrates that belong to the kingdom Animalia and stand out for their
+                characteristics
+                exclusive features, such as the presence of mammary glands – which produce milk to feed the
+                puppies –
+                and
+                hair, which helps maintain body temperature. In Brazil, it is estimated that there are around 700
+                species of
+                mammals, covering an enormous diversity, from small rodents to large cats and mammals.
+            </p>
+
+            <p>&nbsp;The diet of mammals is quite varied, reflecting the diversity of species and their
+                habitats. They exist
+                herbivorous mammals, such as capybaras and deer, which feed mainly on plants and vegetation, and
+                you
+                carnivores, such as the jaguar, the largest land predator in the Americas. There are also omnivorous
+                species,
+                as
+                monkeys and giant anteaters, which consume both plants and small animals or insects. They
+                they are
+                present in all Brazilian biomes, such as the Amazon, Cerrado and Pantanal. </p>
+        </div>
+        <div class="caract">
+            <h2>General characteristics of mammals</h2>
+            <p class="topico">
+                1. Mammary Glands
+            </p>
+            <p class="descricao">
+                They produce milk to nourish their young, which is essential for early development.
+            </p>
+            <p class="topico">
+                2. Coat
+            </p>
+            <p class="descricao">
+                All mammals have hair at some stage of their lives, helping with thermal regulation and protection.
+            </p>
+            <p class="topico">
+                3. Hot Blood
+            </p>
+            <p class="descricao">
+                Mammals are endotherms, maintaining a stable body temperature to survive in varying climates.
+            </p>
+            <p class="topico">
+                4. Developed Nervous System
+            </p>
+            <p class="descricao">
+                Larger and more complex brain, providing intelligence and social behavior.
+            </p>
+            <p class="topico">
+                5. Internal Reproduction
+            </p>
+            <p class="descricao">
+                Most have embryonic development in the uterus, with a placenta to nourish the embryo.
+            </p>
+        </div>
+        <div class="principais">
+            <h2>Main mammals in Brazil</h2>
+        </div>
+        <div class="imagens">
+            <div class="foto">
+                <img src="img/capivara.webp" alt="">
+                <p>
+                    Capybara (Hydrochoerus hydrochaeris)</p>
+            </div>
+            <div class="foto">
+                <img src="img/tam-mirim.webp" alt="">
+                <p>
+                    Little anteater (Tamandua tetradactyla)</p>
+            </div>
+            <div class="foto">
+                <img src="img/jubarte.webp" alt="">
+                <p>
+                    Humpback whale (Megaptera novaeangliae)</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

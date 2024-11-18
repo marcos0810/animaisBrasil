@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertebrados</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+        h1{
+            text-align: center;
+        }
+
+        .texto {
+            font-size: 18px;
+            width: 1000px;
+            font-family: Georgia;
+            margin-top: 15px;
+            margin-bottom: 40px;
+            text-align: justify;
+        }
+
+        .caixona {
+            display: flex;
+            flex-direction: column;
+            height: 900px;
+        }
+
+        .caixa {
+            background-color: rgb(178, 236, 183);
+            border-radius: 15px;
+            height: 135px;
+            width: 450px;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a {
+            color: rgb(240, 240, 240);
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.536);
+            padding: 10px 10px;
+            border-radius: 10px; 
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+
+        .ma:hover {
+            background-image: url(img/mamiferos.webp);
+        }
+
+        .re:hover {
+            background-image: url(img/repteis.webp);
+        }
+
+        .av:hover {
+            background-image: url(img/aves.webp);
+        }
+
+        .an:hover {
+            background-image: url(img/anfibios.webp);
+        }
+
+        .pe:hover {
+            background-image: url(img/peixes.webp);
+        }
+
+        @media (max-width: 600px) {
+            .texto {
+                width: 90%;
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+
+            .caixona {
+                height: auto;
+            }
+
+            .caixa {
+                width: 80%;
+                font-size: 24px;
+                height: 100px;
+                margin-top: 40px;
+                padding-top: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main> 
+        <h1>Vertebrados</h1>
+        <div class="texto">
+            <p> &nbsp; Os animais vertebrados são um grupo de seres vivos que possuem coluna vertebral e um sistema
+                nervoso central
+                bem desenvolvido. Esse grupo inclui aves, répteis, anfíbios e peixes, cada qual mamíferos com
+                características próprias e uma ampla diversidade de espécies. A diversidade de vertebrados é vasta, e
+                eles
+                desempenham papéis importantes na natureza, desde o controle de ambientes de outras espécies até a
+                polinização e dispersão de sementes. Clique para conhecer mais sobre cada classe de animais.</p>
+        </div>
+        <div class="caixona">
+            <div class="caixa ma">
+                <a href="mamiferos.html">Mamíferos</a>
+                <a href="mammals.html">Mammals</a>
+            </div>
+            <div class="caixa re">
+                <a href="repteis.html">Répteis</a>
+                <a href="reptiles.html">Reptiles</a>
+            </div>
+            <div class="caixa av">
+                <a href="aves.html">Aves</a>
+                <a href="birds.html">Birds</a>
+            </div>
+            <div class="caixa an">
+                <a href="anfibios.html">Anfíbios</a>
+                <a href="amphibians.html">Amphibians</a>
+            </div>
+            <div class="caixa pe">
+                <a href="peixes.html">Peixes</a>
+                <a href="fish.html">Fish</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

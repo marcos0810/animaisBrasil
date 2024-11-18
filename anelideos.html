@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anelídeos</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 19px;
+            margin-top: 8px;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .onca {
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .onca img {
+            border-radius: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            width: 500px;
+            height: 300px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 26px;
+        }
+
+        .topico {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .descricao {
+            margin-top: 5px;
+            margin-bottom: 13px;
+        }
+
+        .imagens {
+            display: flex;
+            width: 100%;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+        .foto img {
+            border-radius: 10px;
+        }
+
+        .foto p {
+            margin-top: 5px;
+            font-size: 15px;
+            text-align: center;
+            font-family: 'times New Roman';
+        }
+
+        @media (max-width: 750px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .onca img {
+                width: 400px;
+                height: 250px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+            .imagens {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .foto {
+                margin-bottom: 15px;
+            }  
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Anelídeos do Brasil</h1>
+        <p>&nbsp;Os anelídeos estão presentes em diversos ambientes do Brasil, desde solos férteis até rios e oceanos,
+            desempenhando papéis fundamentais na manutenção dos ecossistemas. </p>
+        <div class="onca">
+            <img src="img/anelideos.webp" alt="">
+        </div>
+        <div>
+            <p>&nbsp;Os anelídeos, pertencentes ao filo Annelida , são animais segmentados. Entre os grupos mais
+                conhecidos estão os minhocas, as poliquetas marinhas e as sanguessugas. No ambiente terrestre, as
+                minhocas são especialmente importantes. Eles vivem em solos ricos em matéria orgânica e ajudam a
+                melhorar sua qualidade por meio da geração e da funcionalidade, sendo essenciais para a fertilidade do
+                solo. Com sua grande diversidade e funções essenciais nos ecossistemas, os anelídeos são um grupo
+                fascinante e vital para a manutenção da biodiversidade no Brasil.
+            </p>
+
+            <p>&nbsp;Já os anelídeos marinhos, como as poliquetas, são encontrados em diversos habitats costeiros do
+                Brasil, incluindo manguezais e recifes de corais. Esses animais podem ser herbívoros, carnívoros ou
+                detritívoros, desempenhando papéis importantes na cadeia alimentar marinha e ajudando na limpeza do meio
+                ambiente. As sanguessugas, por sua vez, habitam ambientes aquáticos, como rios e lagos, e têm hábitos
+                alimentares peculiares. Algumas espécies são hematófagas, alimentando-se de sangue de outros animais,
+                enquanto outras se alimentam de matéria orgânica.
+            </p>
+        </div>
+        <div class="caract">
+            <h2>Características gerais dos anelídeos</h2>
+            <p class="topico">
+                1. Corpo Segmentado
+            </p>
+            <p class="descricao">
+                É dividido em segmentos repetitivos, permitindo maior flexibilidade e movimentos eficientes
+            </p>
+            <p class="topico">
+                2. Respiração Diversificada
+            </p>
+            <p class="descricao">
+                Dependendo do habitat, podem respirar por meio da pele ou brânquias 
+            </p>
+            <p class="topico">
+                3. Diversidade Extrema
+            </p>
+            <p class="descricao">
+                Anelídeos podem ser encontrados desde profundezas oceânicas extremas até solos áridos
+            </p>
+            <p class="topico">
+                4. Cerdas em Alguns Grupos
+            </p>
+            <p class="descricao">
+                Possuem cerdas ou estruturas semelhantes que ajudam na locomoção e na fixação ao substrato.
+            </p>
+            <p class="topico">
+                5. Benefício ao Solo
+            </p>
+            <p class="descricao">
+                Minhocas consomem e excretam matéria orgânica, transformando-a em húmus, um fertilizante natural
+            </p>
+        </div>
+        <div class="principais">
+            <h2>Principais anelídeos do Brasil</h2>
+        </div>
+        <div class="imagens">
+            <div class="foto">
+                <img src="img/sanguesuga.webp" alt="">
+                <p>
+                    Sanguessuga-verde (Macrobdella decora)</p>
+            </div>
+            <div class="foto">
+                <img src="img/poliqueta.webp" alt="">
+                <p>
+                    Poliqueta-da-lama (Nereis diversicolor)</p>
+            </div>
+            <div class="foto">
+                <img src="img/verme-fogo.webp" alt="">
+                <p>
+                    Verme-de-fogo (Hermodice carunculata)</p>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>

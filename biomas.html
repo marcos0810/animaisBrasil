@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomas</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .texto {
+            font-size: 18px;
+            width: 1000px;
+            font-family: Georgia;
+            margin-top: 15px;
+            margin-bottom: 40px;
+            text-align: justify;
+        }
+
+        .caixona {
+            display: flex;
+            flex-direction: column;
+            height: 900px;
+        }
+
+        .caixa {
+            background-color: rgb(178, 236, 183);
+            border-radius: 15px;
+            height: 135px;
+            width: 450px;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a {
+            color: rgb(240, 240, 240);
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.536);
+            padding: 10px 10px;
+            border-radius: 10px;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .texto {
+                width: 90%;
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+
+            .caixona {
+                height: auto;
+            }
+
+            .caixa {
+                width: 80%;
+                font-size: 24px;
+                height: 100px;
+                margin-top: 40px;
+                padding-top: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Biomas</h1>
+        <div class="texto">
+            <p> &nbsp;O Brasil abriga uma incrível diversidade de paisagens naturais, cada uma com características
+                únicas de clima, vegetação e fauna. Esses ambientes variam entre áreas de florestas densas, savanas,
+                campos e regiões semiáridas, apresentando uma enorme riqueza de espécies e ecossistemas. Eles
+                desempenham papéis fundamentais no equilíbrio ambiental, na regulação do clima, no armazenamento de água
+                e na preservação da biodiversidade, além de serem fonte de recursos e sustento para comunidades locais.
+                Essa diversidade reflete a grandiosidade do território brasileiro e sua importância</p>
+        </div>
+        <div class="caixona">
+            <div class="caixa ma">
+                <a href="amazonia.html">Amazônia</a>
+            </div>
+            <div class="caixa re">
+                <a href="mataAtlantica.html">Mata Atlântica</a>
+            </div>
+            <div class="caixa av">
+                <a href="caatinga.html">Caatinga</a>
+            </div>
+            <div class="caixa an">
+                <a href="pantanal.html">Pantanal</a>
+            </div>
+            <div class="caixa pe">
+                <a href="cerrado.html">Cerrado</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

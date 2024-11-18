@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamíferos</title>
+    <style>
+        * {
+            margin: 0 auto;
+        } 
+        p {
+            font-size: 19px;
+            margin-top: 8px;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .onca {
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .onca img {
+            border-radius: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            width: 500px;
+            height: 300px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 26px;
+        }
+
+        .topico {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .descricao {
+            margin-top: 5px;
+            margin-bottom: 13px;
+        }
+
+        .imagens {
+            display: flex;
+            width: 100%;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+        .foto img {
+            border-radius: 10px;
+        }
+
+        .foto p {
+            margin-top: 5px;
+            font-size: 15px;
+            text-align: center;
+            font-family: 'times New Roman';
+        }
+
+        @media (max-width: 750px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .onca img {
+                width: 400px;
+                height: 250px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+            .imagens {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .foto {
+                margin-bottom: 15px;
+            }  
+        }
+    </style>
+</head>
+
+<body> 
+    <main>
+        <h1>Mamíferos do Brasil</h1>
+        <p>&nbsp;Os mamíferos são uma classe fascinante de vertebrados que se destaca por características únicas, como a
+            presença
+            de pelos no corpo e glândulas mamárias, que permitem a alimentação dos filhotes com leite.</p>
+        <div class="onca">
+            <img src="img/onca-pintada.webp" alt="">
+        </div>
+        <div>
+            <p>&nbsp;Os mamíferos são uma classe de vertebrados que pertencem ao reino Animalia e se destacam por
+                características
+                exclusivas, como a presença de glândulas mamárias – que são produzidas lácteos para alimentar os
+                filhotes –
+                e
+                pelos, que ajudam a manter a temperatura corporal. No Brasil, estima-se que existam cerca de 700
+                espécies de
+                mamíferos, abrangendo uma enorme diversidade, desde pequenos roedores até grandes felinos e mamíferos.
+            </p>
+
+            <p>&nbsp;A alimentação dos mamíferos é bastante variada, refletindo a diversidade de espécies e seus
+                habitats. Existem
+                mamíferos herbívoros, como capivaras e veados, que se alimentam principalmente de plantas e vegetação, e
+                os
+                carnívoros, como a onça-pintada, o maior predador terrestre das Américas. Há também espécies onívoras,
+                como
+                os macacos e o tamanduá-bandeira, que consomem tanto plantas quanto pequenos animais ou insetos. Eles
+                estão
+                presentes em todos os biomas brasileiros, como Amazônia, Cerrado e pantanal. </p>
+        </div>
+        <div class="caract">
+            <h2>Características gerais dos mamíferos</h2>
+            <p class="topico">
+                1. Glândulas Mamárias
+            </p>
+            <p class="descricao">
+                Produzem leite para nutrir os filhotes, essencial para o desenvolvimento inicial.
+            </p>
+            <p class="topico">
+                2. Pelagem
+            </p>
+            <p class="descricao">
+                Todos os mamíferos têm pelos em alguma fase da vida, ajudando na regulação térmica e proteção.
+            </p>
+            <p class="topico">
+                3. Sangue Quente
+            </p>
+            <p class="descricao">
+                Mamíferos são endotérmicos, mantendo a temperatura corporal estável para sobreviver em climas variados.
+            </p>
+            <p class="topico">
+                4. Sistema Nervoso Desenvolvido
+            </p>
+            <p class="descricao">
+                Cérebro maior e mais complexo, proporcionando inteligência e comportamento social.
+            </p>
+            <p class="topico">
+                5. Reprodução Interna
+            </p>
+            <p class="descricao">
+                A maioria tem desenvolvimento embrionário no útero, com placenta para nutrir o embrião.
+            </p>
+        </div>
+        <div class="principais">
+            <h2>Principais mamíferos do Brasil</h2>
+        </div>
+        <div class="imagens">
+            <div class="foto">
+                <img src="img/capivara.webp" alt="">
+                <p>
+                    Capivara (Hydrochoerus hydrochaeris)</p>
+            </div>
+            <div class="foto">
+                <img src="img/tam-mirim.webp" alt="">
+                <p>
+                    Tamanduá-mirim (Tamandua tetradactyla)</p>
+            </div>
+            <div class="foto">
+                <img src="img/jubarte.webp" alt="">
+                <p>
+                    Baleia-jubarte (Megaptera novaeangliae)</p>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>

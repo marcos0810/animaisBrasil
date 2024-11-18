@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aves</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 19px;
+            margin-top: 8px;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .onca {
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .onca img {
+            border-radius: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            width: 500px;
+            height: 300px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 26px;
+        }
+
+        .topico {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .descricao {
+            margin-top: 5px;
+            margin-bottom: 13px;
+        }
+
+        .imagens {
+            display: flex;
+            width: 100%;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+        .foto img {
+            border-radius: 10px;
+        }
+
+        .foto p {
+            margin-top: 5px;
+            font-size: 15px;
+            text-align: center;
+            font-family: 'times New Roman';
+        }
+
+        @media (max-width: 750px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .onca img {
+                width: 400px;
+                height: 250px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+            .imagens {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .foto {
+                margin-bottom: 15px;
+            }  
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Birds of Brazil</h1>
+        <p>&nbsp;The birds of Brazil represent one of the greatest diversities in the world. From small birds to
+            large birds of prey, they play essential roles in ecosystems, such as in the dispersal of
+            seeds.</p>
+        <div class="onca">
+            <img src="img/arara-azul.webp" alt="">
+        </div>
+        <div>
+            <p>&nbsp;Birds, belonging to the Aves class, represent one of the most diverse groups of vertebrates in the world.
+                Brazil, with approximately 1,900 cataloged species, which represent around 18% of species of
+                known birds in the world. With habitats ranging from dense tropical forests to open areas such as
+                fields and savannas, birds occupy practically all Brazilian biomes, adapting to different
+                environmental and climatic conditions.
+            </p>
+
+            <p>&nbsp; Some birds, such as macaws and toucans, feed mainly on fruits, helping to
+                distribution of seeds in forests such as the Amazon and the Atlantic Forest. Others, like birds of
+                Prey, including hawks and eagles, are carnivorous and hunt small animals. There are also species
+                insectivores. In addition to playing important ecological roles, Brazilian birds also have great
+                cultural and economic value. Many species are icons of regional cultures, present in legends, myths
+                and popular festivals.</p>
+        </div>
+        <div class="caract">
+            <h2>General characteristics of birds</h2>
+            <p class="topico">
+                1. Pneumatic Bones
+            </p>
+            <p class="descricao">
+                Light, hollow bones help with aerodynamics and facilitate flight.
+            </p>
+            <p class="topico">
+                2. Sharp Vision
+            </p>
+            <p class="descricao">
+                They can see at great distances and, in some species, in ultraviolet light.
+            </p>
+            <p class="topico">
+                3. Adapted Nozzle
+            </p>
+            <p class="descricao">
+                Birds have no teeth and have beaks of various shapes and sizes, adapted to their diet.
+            </p>
+            <p class="topico">
+                4. Flight at Extreme Altitudes
+            </p>
+            <p class="descricao">
+                Some birds can fly at impressive altitudes of more than 8,000 meters above sea level
+            </p>
+            <p class="topico">
+                5. Feathers
+            </p>
+            <p class="descricao">
+                They serve for protection, thermal insulation and, mainly, for flight.
+            </p>
+        </div>
+        <div class="principais">
+            <h2>Main birds of Brazil</h2>
+        </div>
+        <div class="imagens">
+            <div class="foto">
+                <img src="img/harpia.webp" alt="">
+                <p>
+                    Harpy (Harpia harpyja)</p>
+            </div>
+            <div class="foto">
+                <img src="img/jaburu.webp" alt="">
+                <p>
+                    Jaburu (Jabiru mycteria)</p>
+            </div>
+            <div class="foto">
+                <img src="img/mutum.webp" alt="">
+                <p>
+                    Mutum (Crax fasciolata)</p>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>

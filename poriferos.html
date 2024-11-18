@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poríferos</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 19px;
+            margin-top: 8px;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .onca {
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .onca img {
+            border-radius: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            width: 500px;
+            height: 300px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 26px;
+        }
+
+        .topico {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .descricao {
+            margin-top: 5px;
+            margin-bottom: 13px;
+        }
+
+        .imagens {
+            display: flex;
+            width: 100%;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+        .foto img {
+            border-radius: 10px;
+        }
+
+        .foto p {
+            margin-top: 5px;
+            font-size: 15px;
+            text-align: center;
+            font-family: 'times New Roman';
+        }
+
+        @media (max-width: 750px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .onca img {
+                width: 400px;
+                height: 250px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+            .imagens {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .foto {
+                margin-bottom: 15px;
+            }  
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Poríferos do Brasil</h1>
+        <p>&nbsp;Os poríferos, também conhecidos como esponjas, são organismos aquáticos simples e variados que habitam
+            águas doces e marinhas em todo o Brasil. Encontrados principalmente em recifes de corais, manguezais e até
+            rios.</p>
+        <div class="onca">
+            <img src="img/esponja-1.webp" alt="">
+        </div>
+        <div>
+            <p>&nbsp;Esses organismos se alimentam filtrando pequenas partículas suspensas na água, como bactérias e
+                detritos orgânicos, que são capturados enquanto a água passa por seus corpos porosos. Essa alimentação
+                por filtração é essencial para a limpeza e qualidade da água, tornando as esponjas importantes para o
+                equilíbrio ecológico dos habitats em que vivem. As esponjas também oferecem abrigo para outros pequenos
+                animais marinhos, como crustáceos, e, assim, importantes para a complexidade das teias alimentares.
+            </p>
+
+            <p>&nbsp;No Brasil, as esponjas são mais comuns em regiões de águas rasas e ricas em nutrientes, como as
+                áreas de recifes da costa nordeste e sudeste, além de alguns ambientes de água doce na Amazônia e no
+                Pantanal. Algumas espécies marinhas são economicamente importantes e foram estudadas para seu potencial
+                medicinal, já que são compostos bioativos com possíveis propriedades antimicrobianas e anticancerígenas.
+            </p>
+        </div>
+        <div class="caract">
+            <h2>Características gerais dos poríferos</h2>
+            <p class="topico">
+                1. Corpo Poroso
+            </p>
+            <p class="descricao">
+                Têm um corpo cheio de pequenos poros, que permitem a entrada e saída de água.
+            </p>
+            <p class="topico">
+                2. Ausência de órgãos e tecidos Verdadeiros 
+            </p>
+            <p class="descricao">
+                Eles são formados por células especializadas que realizam todas as funções permitidas para sua sobrevivência.
+            </p>
+            <p class="topico">
+                3. Idade Longeva
+            </p>
+            <p class="descricao">
+                Algumas espécies de esponjas marinhas  podem viver centenas de milhares de anos
+            </p>
+            <p class="topico">
+                4. Esqueleto Interno de Espículas
+            </p>
+            <p class="descricao">
+                Compostas de sílica ou calcário, dando suporte ao corpo e ajudando na proteção contra predadores.
+            </p>
+            <p class="topico">
+                5. Capacidade de Regeneração
+            </p>
+            <p class="descricao">
+                Essa habilidade é tão forte que pequenas partes podem formar novas esponjas.
+            </p>
+        </div>
+        <div class="principais">
+            <h2>Principais poríferos do Brasil</h2>
+        </div>
+        <div class="imagens">
+            <div class="foto">
+                <img src="img/esponja-golfo.webp" alt="">
+                <p>
+                    Esponja-vaso (Petrosia spp)</p>
+            </div>
+            <div class="foto">
+                <img src="img/espo-amarela.webp" alt="">
+                <p>
+                    Esponja-amarela (Aplysina fulva)</p>
+            </div>
+            <div class="foto">
+                <img src="img/espo-vidro.webp" alt="">
+                <p>
+                    Esponja-de-vidro (Hexactinellida)</p>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>

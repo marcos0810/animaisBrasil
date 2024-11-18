@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moluscos</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 19px;
+            margin-top: 8px;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .onca {
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .onca img {
+            border-radius: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            width: 500px;
+            height: 300px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 26px;
+        }
+
+        .topico {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .descricao {
+            margin-top: 5px;
+            margin-bottom: 13px;
+        }
+
+        .imagens {
+            display: flex;
+            width: 100%;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+        .foto img {
+            border-radius: 10px;
+        }
+
+        .foto p {
+            margin-top: 5px;
+            font-size: 15px;
+            text-align: center;
+            font-family: 'times New Roman';
+        }
+
+        @media (max-width: 750px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .onca img {
+                width: 400px;
+                height: 250px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+            .imagens {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .foto {
+                margin-bottom: 15px;
+            }  
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Moluscos do Brasil</h1>
+        <p>&nbsp;Os moluscos são um grupo diverso e fascinante de animais encontrados em diversos habitats no Brasil,
+            desde as profundezas dos oceanos até rios, lagoas e até em ambientes terrestres.</p>
+        <div class="onca">
+            <img src="img/moluscos.webp" alt="">
+        </div>
+        <div>
+            <p>&nbsp;Os moluscos, pertencentes à classe Mollusca. Esses animais incluem desde criaturas marinhas, como
+                mariscos e moluscos cefalópodes, até espécies de água doce e até mesmo terrestres, como lesmas e
+                caracóis. Os moluscos têm uma alimentação variada: muitos são herbívoros, alimentando-se de algas e
+                plantas aquáticas, enquanto outros são carnívoros e se alimentam de pequenos invertebrados, ou até mesmo
+                de outros moluscos. Estima-se que o Brasil abrigue uma grande parte dessa diversidade, com muitas
+                espécies endêmicas, especialmente nas regiões costeiras e na região amazônica.
+            </p>
+
+            <p>&nbsp;No Brasil, os moluscos marinhos são especialmente abundantes ao longo da costa, onde recifes de
+                corais, manguezais e estuários oferecem habitats ideais para eles. Espécies como ostras, mexilhões e
+                lulas são comuns em várias regiões costeiras e são importantes para a pesca e a culinária local. Já as
+                espécies de moluscos de água doce, como os caramujos, podem ser encontradas em rios e lagos, sendo
+                vitais para os ecossistemas aquáticos.
+            </p>
+        </div>
+        <div class="caract">
+            <h2>Características gerais dos moluscos</h2>
+            <p class="topico">
+                1. Sistema Circulatório Aberto
+            </p>
+            <p class="descricao">
+                O sangue circula livremente pelos órgãos em vez de ser confinado a vasos sanguíneos.
+            </p>
+            <p class="topico">
+                2. Radula
+            </p>
+            <p class="descricao">
+                É uma espécie de "língua" coberta por pequenas lâminas que permite raspar alimentos
+            </p>
+            <p class="topico">
+                3. Corpo Mole e Protetor
+            </p>
+            <p class="descricao">
+                A maioria dos moluscos possui um corpo mole protegido por uma concha calcária ou uma estrutura semelhante
+            </p>
+            <p class="topico">
+                4. Diversidade de Locomoção
+            </p>
+            <p class="descricao">
+                Alguns se movem por uma secreção viscosa que reduzir o atrito, outros usam jatos de água para impulsionar-se
+            </p>
+            <p class="topico">
+                5. Capacidade de Camuflagem
+            </p>
+            <p class="descricao">
+                Alguns moluscos, especialmente os cefalópodes, possuem a capacidade de mudar a cor e a textura da pele
+            </p>
+        </div>
+        <div class="principais">
+            <h2>Principais moluscos do Brasil</h2>
+        </div>
+        <div class="imagens">
+            <div class="foto">
+                <img src="img/nautilos.webp" alt="">
+                <p>
+                    Nautilus (Nautilus pompilius)</p>
+            </div>
+            <div class="foto">
+                <img src="img/polvo.webp" alt="">
+                <p>
+                    Polvo (Octopus insularis)</p>
+            </div>
+            <div class="foto">
+                <img src="img/lula.webp" alt="">
+                <p>
+                    Lula (Loligo vulgaris)</p>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>

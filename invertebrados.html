@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertebrados</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .texto {
+            font-size: 18px;
+            width: 1000px;
+            font-family: Georgia;
+            margin-top: 15px;
+            margin-bottom: 30px;
+            text-align: justify;
+        }
+
+        .caixona {
+            display: flex;
+            flex-direction: column;
+            height: 1000px;
+        }
+
+        .caixa {
+            background-color: rgb(178, 236, 183);
+            border-radius: 15px;
+            height: 135px;
+            width: 450px;
+            text-align: center;
+            font-size: 28px;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        a {
+            color: rgb(240, 240, 240);
+            text-decoration: none;
+            background-color: rgba(0, 0, 0, 0.536);
+            padding: 10px 10px;
+            border-radius: 10px;
+        }
+        a:hover{
+             text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .texto {
+                width: 90%;
+                font-size: 17px;
+                margin-bottom: 20px;
+            }
+
+            .caixona {
+                height: 1020px;
+            }
+
+            .caixa {
+                width: 80%;
+                font-size: 24px;
+                height: 90px;
+                margin-top: 30px;
+                padding-top: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Invertebrados</h1>
+        <div class="texto">
+            <p> &nbsp; Os invertebrados são um grupo extremamente diversificado de animais que não possuem coluna
+                vertebral, representando cerca de 97% das espécies animais no planeta. Esse grupo inclui uma ampla
+                variedade de organismos, como insetos, aranhas, moluscos, crustáceos, vermes e cnidários. Eles
+                desempenham papéis essenciais nos ecossistemas, como a decomposição de matéria orgânica, a polinização
+                de plantas e a formação de cadeias alimentares. </p>
+        </div>
+        <div class="caixona">
+            <div class="caixa ma">
+                <a href="poriferos.html">Poríferos</a>
+            </div>
+            <div class="caixa re">
+                <a href="cnidarios.html">Cnidários</a>
+            </div>
+            <div class="caixa av">
+                <a href="platelmintos.html">Platelmintos</a>
+            </div>
+            <div class="caixa an">
+                <a href="nematodeos.html">Nematódeos</a>
+            </div>
+            <div class="caixa pe">
+                <a href="moluscos.html">Moluscos</a>
+            </div>
+            <div class="caixa pe">
+                <a href="anelideos.html">Anelídeos</a>
+            </div>
+            <div class="caixa pe">
+                <a href="artropodes.html">Artrópodes</a>
+            </div>
+            <div class="caixa pe">
+                <a href="equinodermos.html">Equinodermos</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

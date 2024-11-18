@@ -1,0 +1,111 @@
+* {
+    margin: 0 auto;
+}
+.img_principal {
+    background-image: url('img/rioAmazonas.webp');
+    width: 620px;
+    height: 310px;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 18px;
+
+}
+
+.img_principal h1 {
+    background-color: rgba(0, 0, 0, 0.693);
+    width: 400px;
+    padding: 10px 50px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-align: center;
+}
+
+.destaque {
+    margin-top: 40px;
+    width: 1000px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.caixona {
+    display: flex;
+    width: 1000px; 
+    margin-bottom: 100px;
+}
+
+.unica {
+    flex-direction: column;
+    flex: 1;
+}
+
+.caixa {
+    text-align: center;
+}
+.caixa img{
+    border-radius: 10px;
+}
+
+.minitexto {
+    text-align: center;
+    width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.caixona img {
+    width: 275px;
+    height: 183px;
+}
+
+@media screen and (max-width:600px) {
+    .img_principal {
+        background-image: url('img/celularRioAmazonas.webp');
+        width: 350px;
+        height: 175px;
+        padding-top: 50px;
+        margin-top: 20px;
+
+    }
+
+    .img_principal h1 {
+        width: 200px;
+        font-size: 25px;
+        padding: 0;
+
+    }
+
+    .destaque {
+        width: 100%;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .caixona {
+        flex-direction: column;
+        width: 100%;
+    }
+    .caixona{
+        margin-bottom: 20px;
+    }
+    .minitexto{
+        margin-top: 2%;
+        font-size: 18px;
+        margin-bottom: 2%;
+    }
+    .caixa{
+        margin-top: 20px;
+    }
+    .caixa img{
+        width: 213px;
+        height: 143px; 
+    } 
+}

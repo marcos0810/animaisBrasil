@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Répteis</title>
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        p {
+            font-size: 19px;
+            margin-top: 8px;
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .onca {
+            justify-content: center;
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .onca img {
+            border-radius: 15px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            width: 100%;
+            width: 500px;
+            height: 300px;
+        }
+
+        h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 26px;
+        }
+
+        .topico {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .descricao {
+            margin-top: 5px;
+            margin-bottom: 13px;
+        }
+
+        .imagens {
+            display: flex;
+            width: 100%;
+            height: 250px;
+            margin-top: 10px;
+        }
+
+        .foto img {
+            border-radius: 10px;
+        }
+
+        .foto p {
+            margin-top: 5px;
+            font-size: 15px;
+            text-align: center;
+            font-family: 'times New Roman';
+        }
+
+        @media (max-width: 750px) {
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 17px;
+            }
+
+            .onca img {
+                width: 400px;
+                height: 250px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+            .imagens {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .foto {
+                margin-bottom: 15px;
+            }  
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Reptiles from Brazil</h1>
+        <p>&nbsp;Reptiles are a fascinating class of animals that inhabit different environments in Brazil. With a big
+            variety of species, such as snakes, lizards, alligators and turtles.</p>
+        <div class="onca">
+            <img src="img/cobra.jpg" alt="">
+        </div>
+        <div>
+            <p>&nbsp;Reptiles belong to the Reptilia class, characterized mainly by skin covered with scales.
+                and for
+                They are ectothermic, that is, they depend on the heat of the environment to regulate their body temperature. Node
+                Brazil,
+                there is a great diversity of reptiles, with approximately 800 cataloged species, which inhabit
+                practically all biomes in the country. In the Amazon, for example,
+                we find a rich diversity of snakes and alligators, adapted to the humid climate and dense forests.
+            </p>
+
+            <p>&nbsp;The diet of reptiles is varied and depends on the characteristics of each group. Some snakes,
+                like the
+                Boa constrictors are carnivores and predators, feeding on small mammals, birds and even other reptiles.
+                Lizards, in turn, have more diverse diets: some species are insectivorous, while
+                others
+                They can be omnivorous, consuming plants and small animals. Turtles can be herbivorous, like
+                some freshwater species that live in rivers and lakes, or omnivores, such as sea turtles.</p>
+        </div>
+        <div class="caract">
+            <h2>General characteristics of reptiles</h2>
+            <p class="topico">
+                1. Scaly Skin
+            </p>
+            <p class="descricao">
+                Reptile skin is covered in keratinized scales, which help prevent water loss.
+            </p>
+            <p class="topico">
+                2. Ectothermy (Cold Blood)
+            </p>
+            <p class="descricao">
+                They are ectothermic, that is, they depend on the temperature of the environment to regulate their own temperature.
+                body.
+            </p>
+            <p class="topico">
+                3. Longevity
+            </p>
+            <p class="descricao">
+                Many reptiles are long-lived, with some species living for several decades.
+            </p>
+            <p class="topico">
+                4. Shedding Skin            
+            </p>
+            <p class="descricao">
+                During this process, they shed the outer layer of skin to allow for growth.
+            </p>
+            <p class="topico">
+                5. Eggs in Shell
+            </p>
+            <p class="descricao">
+                Most reptile species lay eggs with hard or flexible shells.
+            </p>
+        </div>
+        <div class="principais">
+            <h2>Main reptiles in Brazil</h2>
+        </div>
+        <div class="imagens">
+            <div class="foto">
+                <img src="img/coral.webp" alt="">
+                <p>
+                    coral snake (Micrurus spp.)</p>
+            </div>
+            <div class="foto">
+                <img src="img/jacare-açu.webp" alt="">
+                <p>
+                    Black caiman (Melanosuchus niger)</p>
+            </div>
+            <div class="foto">
+                <img src="img/cagado.webp" alt="">
+                <p>
+                    Turtle (Phrynops geoffroanus)</p>
+            </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
